@@ -54,7 +54,8 @@ namespace UserLogin
                     where user.username.Equals(username)
                     && user.password.Equals(password)
                     select user).First();
-/*            foreach (User user in _testUsers)
+
+        /*    foreach (User user in _testUsers)
             {
                 if (user.username.Equals(username) && user.password.Equals(password))
                 {
