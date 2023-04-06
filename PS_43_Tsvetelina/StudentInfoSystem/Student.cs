@@ -41,3 +41,4 @@ namespace StudentInfoSystem
         public int Group { get; set; }
     }
 }
+
