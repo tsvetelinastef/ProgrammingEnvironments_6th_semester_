@@ -10,3 +10,4 @@ namespace ExpenseIt
         public double ExpenseAmount { get; set; }
     }
 }
+
