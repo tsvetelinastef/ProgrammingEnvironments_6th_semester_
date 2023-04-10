@@ -8,7 +8,7 @@
         Title="ExpenceReport" Height="450" Width="800">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="money.jpg"/>
+            <ImageBrush ImageSource="money.jpeg"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>

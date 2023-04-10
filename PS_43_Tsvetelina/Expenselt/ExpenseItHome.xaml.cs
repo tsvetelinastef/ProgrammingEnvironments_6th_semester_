@@ -36,9 +36,9 @@ namespace ExpenseIt
         }
         public List<Person> ExpenseDataSource { get; set; }
         public string MainCaptionText { get; set; }
-        public ExpenseItHome()
+        public ExpenseItHome() 
         {
-            InitializeComponent();
+            InitializeComponent(); 
             InitExpenseDataSource();
             LastChecked = DateTime.Now;
             this.DataContext = this;
